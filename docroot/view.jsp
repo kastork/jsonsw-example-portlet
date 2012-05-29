@@ -56,7 +56,7 @@ AUI().ready('aui-node',function(A) {
 	
 	
 	// http://localhost:8080/jsonsw-example-portlet/api/jsonws/foo/print
-	
+/*	
 	Liferay.Service(
 			service = 'jsonsw-example-portlet/Foo/print',
 			data = {msg:'Foo'},
@@ -67,7 +67,7 @@ AUI().ready('aui-node',function(A) {
 				result1.text('Exception: '+ m);
 			}
 	);
-	
+*/	
 	Liferay.Service.jsonsw_example.Foo.print(
 			data = {msg:'Hey'},
 			successCallback = function(m) {
@@ -81,7 +81,7 @@ AUI().ready('aui-node',function(A) {
 	Liferay.Service.jsonsw_example.Foo.print(
 			data='Ho',
 			successCallback = function(m) {
-				result3.text('Success: '+ m.message);
+				result3.text('Success: '+ m);
 			},
 			exceptionCallback = function(m) {
 				result3.text('Exception: '+ m);
