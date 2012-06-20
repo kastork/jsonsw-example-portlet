@@ -17,7 +17,6 @@
   		</taglib-location>
   	</taglib>
   </jsp-config>
-
 	<servlet>
 		<servlet-name>JSON Servlet</servlet-name>
 		<servlet-class>com.liferay.portal.kernel.servlet.PortalClassLoaderServlet</servlet-class>
@@ -27,7 +26,7 @@
 		</init-param>
 		<load-on-startup>0</load-on-startup>
 	</servlet>
-    <servlet>
+     <servlet>
         <servlet-name>JSON Web Service Servlet</servlet-name>
         <servlet-class>com.liferay.portal.kernel.servlet.PortalClassLoaderServlet</servlet-class>
         <init-param>
@@ -36,11 +35,11 @@
         </init-param>
         <load-on-startup>0</load-on-startup>
     </servlet>
-	<servlet-mapping>
+ 	<servlet-mapping>
 		<servlet-name>JSON Servlet</servlet-name>
 		<url-pattern>/api/json/*</url-pattern>
 	</servlet-mapping>
-	<servlet-mapping>
+ 	<servlet-mapping>
 		<servlet-name>JSON Servlet</servlet-name>
 		<url-pattern>/api/secure/json/*</url-pattern>
 	</servlet-mapping>

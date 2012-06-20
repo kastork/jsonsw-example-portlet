@@ -15,7 +15,7 @@
 package edu.nps.example.model.impl;
 
 /**
- * The extended model implementation for the Foo service. Represents a row in the &quot;jsonsw_example_Foo&quot; database table, with each column mapped to a property of this class.
+ * The extended model implementation for the Foo service. Represents a row in the &quot;jsonswexample_Foo&quot; database table, with each column mapped to a property of this class.
  *
  * <p>
  * Helper methods and all application logic should be put in this class. Whenever methods are added, rerun ServiceBuilder to copy their definitions into the {@link edu.nps.example.model.Foo} interface.

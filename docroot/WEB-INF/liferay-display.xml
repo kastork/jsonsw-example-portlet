@@ -3,6 +3,6 @@
 
 <display>
     <category name="Example">
-        <portlet id="jsonsw-example"></portlet>
+        <portlet id="jsonswexample"></portlet>
     </category>
 </display>

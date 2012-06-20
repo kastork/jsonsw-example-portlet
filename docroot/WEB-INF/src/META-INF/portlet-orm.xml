@@ -32,7 +32,7 @@
 		</attributes>
 	</mapped-superclass>
 	<entity class="edu.nps.example.model.impl.FooImpl" name="Foo">
-		<table name="jsonsw_example_Foo" />
+		<table name="jsonswexample_Foo" />
 		<attributes />
 	</entity>
 </entity-mappings>

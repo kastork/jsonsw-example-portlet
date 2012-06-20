@@ -17,7 +17,7 @@ package edu.nps.example.model;
 import com.liferay.portal.model.PersistedModel;
 
 /**
- * The extended model interface for the Foo service. Represents a row in the &quot;jsonsw_example_Foo&quot; database table, with each column mapped to a property of this class.
+ * The extended model interface for the Foo service. Represents a row in the &quot;jsonswexample_Foo&quot; database table, with each column mapped to a property of this class.
  *
  * @author kirk
  * @see FooModel

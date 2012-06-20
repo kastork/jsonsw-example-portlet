@@ -3,7 +3,7 @@
 
 <hibernate-mapping default-lazy="false" auto-import="false">
 	<import class="edu.nps.example.model.Foo" />
-	<class name="edu.nps.example.model.impl.FooImpl" table="jsonsw_example_Foo">
+	<class name="edu.nps.example.model.impl.FooImpl" table="jsonswexample_Foo">
 		<cache usage="read-write" />
 		<id name="fooId" type="long">
 			<generator class="assigned" />
